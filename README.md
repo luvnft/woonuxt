@@ -16,7 +16,7 @@ The goal of WooNuxt is to provide a modern, fast, and SEO-friendly front-end for
 
 ## Troubleshooting
 
-You can find some common errors and how to fix them [here](https://woonuxt.com/faq#some-common-errors-to-troubleshoot)
+You can find some common errors and how to fix them [here](https://shop.atl5d.com/faq#some-common-errors-to-troubleshoot)
 
 &nbsp;
 
