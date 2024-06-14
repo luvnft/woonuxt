@@ -4,7 +4,7 @@ const { resolve } = createResolver(import.meta.url);
 export default defineNuxtConfig({
   app: {
     head: {
-      titleTemplate: `%s | ${process.env.SITE_TITLE ?? 'WooNuxt'}`,
+      titleTemplate: `%s | ${process.env.SITE_TITLE ?? 'ATL5D Shop'}`,
       htmlAttrs: { lang: 'en' },
       link: [{ rel: 'icon', href: '/logo.svg', type: 'image/svg+xml' }],
     },
@@ -24,7 +24,7 @@ export default defineNuxtConfig({
   'graphql-client': {
     clients: {
       default: {
-        host: process.env.GQL_HOST || 'http://localhost:4000/graphql',
+        host: process.env.GQL_HOST || 'https://shop.atl5d.com/graphql',
         corsOptions: { mode: 'cors', credentials: 'include' },
       },
     },
